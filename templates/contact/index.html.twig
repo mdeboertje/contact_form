@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+<div>
+    {{ include('contact/_form.html.twig', {'button_label': 'Send'}) }}
+</div>
+{% endblock %}
